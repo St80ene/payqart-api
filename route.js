@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const isValid = require('./UserValidation')
+const isValid = require('./userController')
 
 router.get('/', (req, res) => {
     res.send('Hello World!!')
